@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<slides>
+		<slide id="0">
+			<image>image0.jpg</image>
+			<time>5</time>
+			<link/>
+		</slide>
+	</slides>
+	<setting>
+		<fade>false</fade>
+		<slide>left</slide>
+		<width>600</width>
+		<height>250</height>
+	</setting>
+</data>
