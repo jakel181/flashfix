@@ -3,8 +3,16 @@
   <head>
     <title>Test Page</title>
   </head>
-  <center>
+<center>
   <h1>Flash Test Page</h1>
-<object type="application/x-shockwave-flash" data="slideshow.swf"><h1>Flash is not enabled.</h1></object>
-   </center>
+<body>
+	<object type="application/x-shockwave-flash" data="./slideshow/slideshow.swf" width="600" height="250">
+				<param name="menu" value="false" />
+				<param name="wmode" value="transparent" />
+				<param name="flashvars" value="xml=./slideshow/slideshow.xml&amp;dir=./slideshow/" />
+				<param name="movie" value="./slideshow/slideshow.swf" />
+	</object>
+</body>
+</center>
+  <p>Made with <a href="http://slideshow.pluri.info">http://slideshow.pluri.info</a></p>
 </html>
