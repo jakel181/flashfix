@@ -1,1 +1,1 @@
-javascript:document.write('<a href="https://get.adobe.com/flashplayer">Enable Flash</a>');
+javascript:document.write('<a href='+'https://get.adobe.com/flashplayer'+'>Enable Flash</a>');
