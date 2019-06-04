@@ -12,7 +12,7 @@ function flashFix() {
 function getFunctionContent(name) {
   var f = window[name];
   var txt = f.toString();
-  var t = txt.slice(txt.indexOf("{"),txt.lastIndexOf("}"));
+  var t = txt.slice(txt.indexOf("{")+1,txt.lastIndexOf("}"));
   return t;
 }
 create(getFunctionContent('flashFix'),"Enable Flash","link");
